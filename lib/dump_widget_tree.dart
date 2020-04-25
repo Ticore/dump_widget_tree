@@ -53,7 +53,7 @@ extension _ElementExt on Element {
 }
 
 /// 
-/// An [Element] wrapper, that is automatically find related [Wdiget], [RenderObject], [Layer] and child entries.
+/// An [Element] wrapper, that is automatically find related [Widget], [RenderObject], [Layer] and child entries.
 /// 
 class Entry extends LinkedListEntry<Entry> {
   Entry parent;

@@ -1,7 +1,8 @@
 name: dump_widget_tree
 description: A new Flutter package project.
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/Ticore/dump_widget_tree
+homepage: https://github.com/Ticore/dump_widget_tree
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

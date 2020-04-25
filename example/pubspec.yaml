@@ -1,0 +1,19 @@
+name: dump_widget_tree_example
+description: Demonstrates how to use dump_widget_tree
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dump_widget_tree:
+    path: ../
+
+dev_dependencies:
+  test:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
