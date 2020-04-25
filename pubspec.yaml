@@ -1,0 +1,19 @@
+name: dump_widget_tree
+description: A new Flutter package project.
+version: 0.1.0
+repository: https://github.com/Ticore/dump_widget_tree
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  test:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+

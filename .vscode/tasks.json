@@ -1,0 +1,71 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+
+        // :::::::::: install grinder tasks ::::::::::
+
+        {
+            "label": "install grinder",
+            "osx": { "command": "bash", "args": ["-c", "pub get"], },
+            "windows": { "command": "cmd", "args": ["/C", "pub get"], },
+            "options": { "cwd": "${workspaceRoot}/_utils", "env": { } },
+            "problemMatcher": [ "$dart-pub-build_runner" ],
+        },
+
+        // :::::::::: flutter tasks ::::::::::
+
+        {
+            "label": "flutter run",
+            "osx": { "command": "bash", "args": ["flutter", "run", "${file}"], },
+            "windows": { "command": "cmd", "args": ["flutter", "run", "${file}"], },
+            "problemMatcher": [],
+        },
+
+        {
+            "label": "flutter run --profile",
+            "osx": { "command": "bash", "args": ["flutter", "run", "--profile", "${file}"], },
+            "windows": { "command": "cmd", "args": ["flutter", "run", "--profile", "${file}"], },
+            "problemMatcher": [],
+        },
+
+        {
+            "label": "flutter run --release",
+            "osx": { "command": "bash", "args": ["flutter", "run", "--release", "${file}"], },
+            "windows": { "command": "cmd", "args": ["flutter", "run", "--release", "${file}"], },
+            "problemMatcher": [],
+        },
+
+        {
+            "label": "flutter test",
+            "osx": { "command": "bash", "args": ["flutter", "test", "${file}"], },
+            "windows": { "command": "cmd", "args": ["flutter", "test", "${file}"], },
+            "problemMatcher": [],
+        },
+
+        {
+            "label": "flutter test --update-goldens",
+            "osx": { "command": "bash", "args": ["flutter", "test", "--update-goldens", "${file}"], },
+            "windows": { "command": "cmd", "args": ["flutter", "test", "--update-goldens", "${file}"], },
+            "problemMatcher": [],
+        },
+
+        // :::::::::: flutter pub get/upgrade tasks ::::::::::
+
+        {
+            "label": "flutter pub get ./pubspec.yaml",
+            "osx": { "command": "bash", "args": ["flutter", "pub", "get", "${workspaceFolder}"], },
+            "windows": { "command": "cmd", "args": ["flutter", "pub", "get", "${workspaceFolder}"], },
+            "options": { "cwd": "${workspaceFolder}", "env": { } },
+            "problemMatcher": [],
+        },
+
+        {
+            "label": "flutter pub upgrade ./pubspec.yaml",
+            "osx": { "command": "bash", "args": ["flutter", "pub", "upgrade", "${workspaceFolder}"], },
+            "windows": { "command": "cmd", "args": ["flutter", "pub", "upgrade", "${workspaceFolder}"], },
+            "options": { "cwd": "${workspaceFolder}", "env": { } },
+            "problemMatcher": [],
+        },
+
+    ]
+}
