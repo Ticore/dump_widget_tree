@@ -1,3 +1,7 @@
+## 0.1.2
+
+* Update description
+
 ## 0.1.1
 
 * Fix typo in comment

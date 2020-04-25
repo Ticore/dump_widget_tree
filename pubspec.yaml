@@ -1,6 +1,6 @@
 name: dump_widget_tree
-description: A new Flutter package project.
-version: 0.1.1
+description: Flutter helper function that print Widget/Element/RenderObject/Layer trees, side-by-side.
+version: 0.1.2
 repository: https://github.com/Ticore/dump_widget_tree
 homepage: https://github.com/Ticore/dump_widget_tree
 
